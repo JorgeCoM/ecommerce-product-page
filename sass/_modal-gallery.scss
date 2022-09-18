@@ -14,7 +14,7 @@
         width: 16px;
         &:hover{
             cursor: pointer;
-            content: url('../images/icon-close-orange.svg');
+            content: url('./images/icon-close-orange.svg');
         }
     }
     @include mixins.modal-gallery(true, 190px, -15px, 190px, 530px);
